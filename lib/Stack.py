@@ -6,10 +6,13 @@ class Stack:
         pass
 
     def isEmpty(self):
-        pass
+        if len(self.items) == 0:
+            return True
+        else:
+            return False        
 
     def push(self, item):
-        pass
+        self.items.append(item)
 
     def pop(self):
         pass
